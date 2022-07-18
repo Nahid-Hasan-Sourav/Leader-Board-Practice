@@ -159,7 +159,7 @@ LATEST-COURSES-STYLE START HERE
     font-size: 15px;
 }
 .course-info .star{
-    color: yellow;
+    color: rgb(208, 208, 13);
 }
 
 
@@ -191,7 +191,7 @@ LATEST-COURSES-STYLE START HERE
 @media (max-width:991px){
     body{
         padding: 0px 10px;
-        background-color: purple;
+        /* background-color: purple; */
     }
     .container{
         width: 100%;
@@ -217,7 +217,7 @@ LATEST-COURSES-STYLE START HERE
 @media (max-width:768px){
     body{
         padding: 0px 10px;
-        background-color:rgb(47, 255, 0);
+        /* background-color:rgb(242, 255, 0); */
     }
     .container{
         width: 100%;
@@ -254,12 +254,11 @@ LATEST-COURSES-STYLE START HERE
        padding: 15px;
     }
 
+    /* latest courses start here */
     .courses{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-gap: 15px;
-        
-       
+        grid-gap: 15px;      
     }
     .course{
         display: flex;
@@ -274,7 +273,7 @@ LATEST-COURSES-STYLE START HERE
 @media (max-width:575px) {
     body{
         padding: 0px 10px 0px 10px;
-        background-color:yellow;
+        /* background-color:rgb(8, 0, 255); */
     }
     .container{
         width: 100%;

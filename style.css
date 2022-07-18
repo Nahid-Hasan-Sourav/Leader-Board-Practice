@@ -19,9 +19,6 @@ body{
 .container{   
     width: 870px;
     margin: 0 auto;
-   
-    
-
 
 }
 #top-player-top-blog{
@@ -56,7 +53,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid rgb(213, 208, 208);
+    /* border: 1px solid rgb(213, 208, 208); */
     padding: 10px;
     
     /* justify-content: space-evenly; */
@@ -91,7 +88,7 @@ top-blog styles
 }
 .blogs .blog{
     display: flex;
-    border: 1px solid rgb(201, 193, 193);
+    /* border: 1px solid rgb(201, 193, 193); */
     padding: 10px;
     
 }
@@ -129,10 +126,14 @@ LATEST-COURSES-STYLE START HERE
     padding: 30px;
     background-color: white;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 .course{
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 20px 5px;
+    box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000000D;
+    border: 1px solid rgb(248, 248, 248);
+
 }
 .courses{
     display: grid;

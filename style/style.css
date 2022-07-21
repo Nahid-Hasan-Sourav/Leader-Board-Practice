@@ -31,6 +31,10 @@ nav{
     background-color:#562EFF ;
     color: white;
     padding: 15px 15px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* top: 0px; */
 }
 .nav{
     display: flex;
@@ -64,6 +68,9 @@ nav .logo span i{
 nav .nav .nav-item{
     display: flex; 
     align-items: center;
+}  
+nav .nav .nav-item .profile-text-title-des{
+    display: none;
    
 }
 nav .nav .nav-item a{
@@ -118,6 +125,7 @@ nav .nav .nav-item .border-bottom:hover{
     justify-content: flex-start;
     /* border: 1px solid rgb(213, 208, 208); */
     padding: 10px;
+    
     
     /* justify-content: space-evenly; */
 }

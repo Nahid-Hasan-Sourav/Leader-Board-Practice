@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
 }
 /* a,span,i{
@@ -20,26 +21,40 @@ body{
     background-color:  #F3F1FF;
     font-family: 'Poppins', sans-serif;
 }
-.container{   
-    width: 65%;
-    margin: 0 auto;
-    border: 2px solid red;
 
+.container{   
+    /* width: 65%; */
+    width: 72%;
+    margin: 0 auto;
+    
+
+}
+header{
+    height: 90px;
+}
+#navigation{
+    height: 90px;
 }
 
 nav{
-    background-color:#562EFF ;
+    background-color:#2827CC ;
+    /* background-color:#562EFF ; */
+    /* background-color: grey; */
     color: white;
     padding: 15px 15px;
-    position: fixed;
+    position:fixed;
     top: 0px;
     width: 100%;
+   
+
     /* top: 0px; */
 }
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+    
 }
 nav .logo{
     display: flex;
@@ -96,6 +111,7 @@ nav .nav .nav-item .border-bottom:hover{
     border-radius: 5px;
     padding: 30px;
     margin-bottom:21px;
+    
 }
 .top-players{
     border-radius: 5px;
@@ -145,7 +161,8 @@ hr{
    
     border: 1px solid #D1D1D1;
     border-bottom: 0px;
-    margin: 30px 0px;
+    margin: 30px auto;
+    width: 80%;
 }
 
 /*...................
@@ -161,6 +178,9 @@ top-blog styles
     display: flex;
     /* border: 1px solid rgb(201, 193, 193); */
     padding: 10px;
+    box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000000D;
+    border: 1px solid rgb(248, 248, 248);
+    
     
 }
 .blogs .blog .thumbnail img{
@@ -170,21 +190,25 @@ top-blog styles
 }
 .blogs .blog-info{
     margin-left: 16px;
+    /* margin: 20px 0px 20px 16px; */
+    
 }
 .blogs .blog-info .blog-title{
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 20px;
+    margin: 5px;
 }
 .blogs .blog-info .blog-author{
     color: #9F9F9F;
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 16px;
+    margin-left: 5px;
+    
 }
 .blogs .blog-info .blog-author a{
-    color: #562EFF;
-  
+    color: #562EFF; 
     text-decoration: none;
 }
 
@@ -202,9 +226,11 @@ LATEST-COURSES-STYLE START HERE
 }
 .course{
     /* border: 1px solid; */
-    padding: 20px 5px;
+    padding: 0px 0px 20px 0px;
     box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000000D;
     border: 1px solid rgb(248, 248, 248);
+    
+    border-radius: 29px 29px 0px 0px;
 
 }
 .courses{
@@ -220,6 +246,9 @@ LATEST-COURSES-STYLE START HERE
 }
 .course-details{
     margin-top: 20px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 10px;
 }
 .course-details h3{
     font-size: 20px;
@@ -263,4 +292,36 @@ LATEST-COURSES-STYLE START HERE
     font-size: 10px;
     font-weight:400;
     font-family: 'roboto';
+}
+footer{
+    /* background-color: rgba(93, 163, 250,0.5); */
+    background-color:#2d2dd2da ;
+    width: 100%;
+}
+#footer-container{
+    padding: 20px 0px;
+}
+#footer-container h3{
+    margin: 15px 0px;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* hr{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid rgba(40, 39, 204,0.5);
+    border-bottom: none;
+} */
+#footer-container .footer-menu-item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0px 20px 0px;
+}
+#footer-container .footer-menu-item a{
+   text-decoration: none;
+   color: white;
+   margin:0px 8px;
 }

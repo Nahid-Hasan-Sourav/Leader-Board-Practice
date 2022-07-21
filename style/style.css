@@ -9,18 +9,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+/* a,span,i{
+    display: inline-block;
+} */
 body{
     /* background-color: #2a05f8; */
-    padding: 0px 10px;
+    
     background-color:  #F3F1FF;
     font-family: 'Poppins', sans-serif;
 }
 .container{   
-    width: 63%;
+    width: 65%;
     margin: 0 auto;
+    border: 2px solid red;
 
 }
+
+nav{
+    background-color:#562EFF ;
+    color: white;
+    padding: 15px 15px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+nav .logo img{
+    width: 40.42px;
+    height:60px;
+    display: block;
+    margin: 0px 5px;
+}
+nav .logo span i{
+    
+    height:51px;
+    font-size:40.42px;
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+    margin-left: 0px;
+    display: none;
+}
+.logo-text{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+nav .nav .nav-item{
+    display: flex; 
+    align-items: center;
+   
+}
+nav .nav .nav-item a{
+    display: inline-block; 
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition-property: boder-bottom;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0.5;
+    
+   
+}
+
+nav .nav .nav-item .border-bottom:hover{
+    border-bottom:2px solid white;
+}
+
 #top-player-top-blog{
     background-color: white;
     border-radius: 5px;
@@ -93,7 +156,8 @@ top-blog styles
     
 }
 .blogs .blog .thumbnail img{
-    width: 177px;
+   
+    width: 117px;
     height: 117px;
 }
 .blogs .blog-info{
@@ -143,7 +207,7 @@ LATEST-COURSES-STYLE START HERE
 }
 
 #latest-course .courses .course .course-banner img{
-    width: 250px;
+    width:100%;
     height: 141px;
 }
 .course-details{
@@ -160,13 +224,15 @@ LATEST-COURSES-STYLE START HERE
 }
 .course-info .star{
     color: rgb(243, 243, 8);
+    font-size: 13px;
+    font-weight: bold;
 }
 
 
 .rating-number{
-    margin-left: 11px;
-    margin-right:20px;
-    font-size: 15px;
+    margin-left: 3px;
+    margin-right:3px;
+    font-size: 12px;
     color: #A2A2A2;
 }
 .course-time-icon{
@@ -174,17 +240,19 @@ LATEST-COURSES-STYLE START HERE
     Height:29.38px;
     background: #FFE4E8;
     border-radius: 14.6913px;
-    padding: 5px 10px;
+    padding: 2px 6px;
+    height: 60px;
 }
 
 .course-time-icon .fa-clock{
     margin: 0px 2px;
     color: #FF4A60;
+    font-size: 10px;
    
 }
 .course-time-icon .course-time-hr{
     color: #FF4A60;
-    font-size: 15px;
+    font-size: 10px;
     font-weight:400;
     font-family: 'roboto';
 }

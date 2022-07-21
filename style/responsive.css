@@ -8,11 +8,20 @@
         
     }
     header{
-        height: 467px;
+        height:508px;
         
     }
     nav{
         position: static;
+        padding:0px;
+    }
+    nav .logo{
+        width: 100%;
+        background-color: rgba(93, 163, 250,0.5);
+        
+        padding: 20px;
+       display: flex;
+       justify-content: center;
     }
     /* navigation logo && nav item start here*/
     nav .nav{
@@ -22,6 +31,7 @@
     nav .nav .nav-item{
         flex-direction: column-reverse;
         width: 100%;
+        padding: 15px;
     }
     nav .nav .nav-item .profile-text{
         margin: 30px 0px;
@@ -140,6 +150,7 @@
     }
     nav{
         width: 100%;
+        padding: 0px;
     }
     main{
         
@@ -149,11 +160,22 @@
         
     }
     header{
-        height: 467px;
+        height: 512px;
         
+    }
+    nav .logo{
+        width: 100%;
+        background-color: rgba(93, 163, 250,0.5);
+        
+       padding: 20px;
+       display: flex;
+       justify-content: center;
     }
     nav{
         position: static;
+    }
+    .logo{
+       
     }
     /* navigation logo && nav item start here*/
     nav .nav{
@@ -163,6 +185,7 @@
     nav .nav .nav-item{
         flex-direction: column-reverse;
         width: 100%;
+        padding: 15px;
     }
     nav .nav .nav-item .profile-text{
         margin: 30px 0px;
